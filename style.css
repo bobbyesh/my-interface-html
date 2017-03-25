@@ -4,4 +4,29 @@ body {
 article p span {
   display: inline-block; }
 
+div.word-detail#selected {
+  position: absolute;
+  display: inline;
+  left: 150px;
+  top: 150px;
+  padding: 10px 25px 15px 10px;
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: solid;
+  box-shadow: 2px 2px 1px #888888; }
+  div.word-detail#selected h3 {
+    text-align: center; }
+  div.word-detail#selected p.pinyin {
+    text-align: center; }
+  div.word-detail#selected div.definitions {
+    margin: auto;
+    padding: 5px 0 0 0; }
+    div.word-detail#selected div.definitions li {
+      padding: 2px 0 2px 0; }
+  div.word-detail#selected div.rank-buttons {
+    padding-left: 20px; }
+    div.word-detail#selected div.rank-buttons button {
+      margin-left: 2px;
+      margin-right: 2px; }
+
 /*# sourceMappingURL=style.css.map */
